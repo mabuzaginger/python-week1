@@ -34,6 +34,25 @@
 def greet(name):
     return f"Hello, {name}"
 #Apply the function
-print(greet("mpumi"))
-print(greet("elain"))
-    
+# print(greet("mpumi"))
+# print(greet("elain"))
+
+#List and dictionary
+# fruits_list = ["apple", "mango", "cherry"]
+# fruits_tuple = ("Banana", "pineaple", "orange")
+# print(fruits_list)
+# print(fruits_tuple)    
+
+#Dictionary
+# contacts = {
+#     "Alice": "123456",
+#     "John": "687943",
+#     "Mark": "782939"
+# # }
+# print(f"Mark contact it {contacts['Mark']}")
+
+#Modules
+import math
+#use a function from module math
+result = math.sqrt(49)
+print(f"The Squre root of 49 is {result}")
